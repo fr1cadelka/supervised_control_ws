@@ -1,0 +1,348 @@
+[0.189s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'status+', 'console_start_end+', '--cmake-args', '-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug']
+[0.189s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=['status+', 'console_start_end+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x745702479f90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7457024798d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7457024798d0>>)
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dmitry/Documents/lab_first_sem/ws_supervised'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_launch) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_launch' with type 'ros.ament_cmake' and name 'control_launch'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/gui_control) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gui_control' with type 'ros.ament_cmake' and name 'gui_control'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_action) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_to_point_action' with type 'ros.ament_cmake' and name 'move_to_point_action'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/move_to_point_server) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/move_to_point_server' with type 'ros.ament_cmake' and name 'move_to_point_server'
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dmitry/Documents/lab_first_sem/ws_supervised/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 410 installed packages in /opt/ros/humble
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'cmake_args' from command line to '['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug']'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'control_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'control_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch', 'merge_install': False, 'path': '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/control_launch', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_args' from command line to '['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug']'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'gui_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'gui_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control', 'merge_install': False, 'path': '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'cmake_args' from command line to '['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug']'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'move_to_point_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action', 'merge_install': False, 'path': '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'cmake_args' from command line to '['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug']'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'move_to_point_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'move_to_point_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server', 'merge_install': False, 'path': '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_server', 'symlink_install': False, 'test_result_base': None}
+[0.297s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/control_launch' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/control_launch'
+[0.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control' with build type 'ament_cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action' with build type 'ament_cmake'
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action'
+[0.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_server' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_server'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/control_launch -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch
+[0.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_server -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server
+[1.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/control_launch -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch
+[1.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch -- -j16 -l16
+[1.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch -- -j16 -l16
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch
+[1.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_launch)
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch' for CMake module files
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch' for CMake config files
+[1.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_launch', 'cmake_prefix_path')
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/hook/cmake_prefix_path.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/hook/cmake_prefix_path.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/hook/cmake_prefix_path.sh'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/bin'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/lib/pkgconfig/control_launch.pc'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/lib/python3.10/site-packages'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/bin'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.sh'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.bash'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.zsh'
+[1.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/colcon-core/packages/control_launch)
+[1.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_launch)
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch' for CMake module files
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch' for CMake config files
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_launch', 'cmake_prefix_path')
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/hook/cmake_prefix_path.ps1'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/hook/cmake_prefix_path.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/hook/cmake_prefix_path.sh'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/bin'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/lib/pkgconfig/control_launch.pc'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/lib/python3.10/site-packages'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/bin'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.sh'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.bash'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.zsh'
+[1.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/colcon-core/packages/control_launch)
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_server -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server -- -j16 -l16
+[1.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control
+[1.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control -- -j16 -l16
+[1.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action -- -j16 -l16
+[4.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action -- -j16 -l16
+[4.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action
+[4.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_to_point_action)
+[4.791s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action' for CMake module files
+[4.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action
+[4.792s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action' for CMake config files
+[4.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_point_action', 'cmake_prefix_path')
+[4.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/cmake_prefix_path.ps1'
+[4.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/cmake_prefix_path.dsv'
+[4.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/cmake_prefix_path.sh'
+[4.795s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib'
+[4.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_point_action', 'ld_library_path_lib')
+[4.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/ld_library_path_lib.ps1'
+[4.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/ld_library_path_lib.dsv'
+[4.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/ld_library_path_lib.sh'
+[4.797s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/bin'
+[4.797s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/pkgconfig/move_to_point_action.pc'
+[4.798s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/python3.10/site-packages'
+[4.798s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/bin'
+[4.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.ps1'
+[4.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.dsv'
+[4.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.sh'
+[4.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.bash'
+[4.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.zsh'
+[4.801s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/colcon-core/packages/move_to_point_action)
+[4.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_to_point_action)
+[4.802s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action' for CMake module files
+[4.803s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action' for CMake config files
+[4.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_point_action', 'cmake_prefix_path')
+[4.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/cmake_prefix_path.ps1'
+[4.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/cmake_prefix_path.dsv'
+[4.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/cmake_prefix_path.sh'
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib'
+[4.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_point_action', 'ld_library_path_lib')
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/ld_library_path_lib.ps1'
+[4.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/ld_library_path_lib.dsv'
+[4.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/hook/ld_library_path_lib.sh'
+[4.808s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/bin'
+[4.808s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/pkgconfig/move_to_point_action.pc'
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/python3.10/site-packages'
+[4.809s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/bin'
+[4.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.ps1'
+[4.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.dsv'
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.sh'
+[4.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.bash'
+[4.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.zsh'
+[4.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/colcon-core/packages/move_to_point_action)
+[10.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server -- -j16 -l16
+[10.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server
+[10.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_to_point_server)
+[10.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_server
+[10.063s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server' for CMake module files
+[10.064s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server' for CMake config files
+[10.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_point_server', 'cmake_prefix_path')
+[10.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/hook/cmake_prefix_path.ps1'
+[10.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/hook/cmake_prefix_path.dsv'
+[10.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/hook/cmake_prefix_path.sh'
+[10.066s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/lib'
+[10.066s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/bin'
+[10.066s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/lib/pkgconfig/move_to_point_server.pc'
+[10.066s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/lib/python3.10/site-packages'
+[10.066s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/bin'
+[10.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.ps1'
+[10.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.dsv'
+[10.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.sh'
+[10.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.bash'
+[10.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.zsh'
+[10.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/colcon-core/packages/move_to_point_server)
+[10.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_to_point_server)
+[10.069s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server' for CMake module files
+[10.069s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server' for CMake config files
+[10.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_to_point_server', 'cmake_prefix_path')
+[10.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/hook/cmake_prefix_path.ps1'
+[10.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/hook/cmake_prefix_path.dsv'
+[10.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/hook/cmake_prefix_path.sh'
+[10.071s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/lib'
+[10.071s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/bin'
+[10.071s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/lib/pkgconfig/move_to_point_server.pc'
+[10.071s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/lib/python3.10/site-packages'
+[10.071s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/bin'
+[10.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.ps1'
+[10.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.dsv'
+[10.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.sh'
+[10.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.bash'
+[10.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/move_to_point_server/package.zsh'
+[10.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_server/share/colcon-core/packages/move_to_point_server)
+[12.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control -- -j16 -l16
+[12.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control
+[12.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui_control)
+[12.201s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control' for CMake module files
+[12.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/gui_control
+[12.201s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control' for CMake config files
+[12.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_control', 'cmake_prefix_path')
+[12.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/hook/cmake_prefix_path.ps1'
+[12.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/hook/cmake_prefix_path.dsv'
+[12.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/hook/cmake_prefix_path.sh'
+[12.202s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/lib'
+[12.202s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/bin'
+[12.202s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/lib/pkgconfig/gui_control.pc'
+[12.202s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/lib/python3.10/site-packages'
+[12.203s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/bin'
+[12.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.ps1'
+[12.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.dsv'
+[12.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.sh'
+[12.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.bash'
+[12.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.zsh'
+[12.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/colcon-core/packages/gui_control)
+[12.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gui_control)
+[12.204s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control' for CMake module files
+[12.204s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control' for CMake config files
+[12.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('gui_control', 'cmake_prefix_path')
+[12.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/hook/cmake_prefix_path.ps1'
+[12.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/hook/cmake_prefix_path.dsv'
+[12.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/hook/cmake_prefix_path.sh'
+[12.205s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/lib'
+[12.205s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/bin'
+[12.205s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/lib/pkgconfig/gui_control.pc'
+[12.205s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/lib/python3.10/site-packages'
+[12.205s] Level 1:colcon.colcon_core.environment:checking '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/bin'
+[12.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.ps1'
+[12.206s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.dsv'
+[12.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.sh'
+[12.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.bash'
+[12.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/gui_control/package.zsh'
+[12.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dmitry/Documents/lab_first_sem/ws_supervised/install/gui_control/share/colcon-core/packages/gui_control)
+[12.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.207s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.211s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.211s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.BadAddress: '=' character not found or has no value following it
+[12.211s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.211s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/local_setup.ps1'
+[12.212s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/_local_setup_util_ps1.py'
+[12.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/setup.ps1'
+[12.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/local_setup.sh'
+[12.214s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/_local_setup_util_sh.py'
+[12.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/setup.sh'
+[12.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/local_setup.bash'
+[12.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/setup.bash'
+[12.216s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/local_setup.zsh'
+[12.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/setup.zsh'

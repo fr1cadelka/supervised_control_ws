@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action/move_to_point_action__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "move_to_point_action::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "move_to_point_action__py::@5a52527c179daa451fc0",
+	"name" : "move_to_point_action__py",
+	"paths" : 
+	{
+		"build" : "move_to_point_action__py",
+		"source" : "/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action/move_to_point_action__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action/move_to_point_action__py/CMakeFiles/move_to_point_action__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action/move_to_point_action__py/CMakeFiles/move_to_point_action__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action/rosidl_generator_py/move_to_point_action/_move_to_point_action_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

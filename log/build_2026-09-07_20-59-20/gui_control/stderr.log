@@ -1,0 +1,15 @@
+In file included from /home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control/src/mainwindow.cpp:1:
+/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control/include/mainwindow.h: In constructor ‘MainWindow::MainWindow(rclcpp::Node::SharedPtr, QWidget*)’:
+/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control/include/mainwindow.h:74:19: warning: ‘MainWindow::current_state_petri’ will be initialized after [-Wreorder]
+   74 |     PetriNetState current_state_petri;
+      |                   ^~~~~~~~~~~~~~~~~~~
+/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control/include/mainwindow.h:67:10: warning:   ‘bool MainWindow::path_ready’ [-Wreorder]
+   67 |     bool path_ready;
+      |          ^~~~~~~~~~
+/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control/src/mainwindow.cpp:6:1: warning:   when initialized here [-Wreorder]
+    6 | MainWindow::MainWindow(rclcpp::Node::SharedPtr n, QWidget *parent):
+      | ^~~~~~~~~~
+/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control/src/mainwindow.cpp: In member function ‘void MainWindow::on_comboBox_chooseMethod_currentIndexChanged(int)’:
+/home/dmitry/Documents/lab_first_sem/ws_supervised/src/gui_control/src/mainwindow.cpp:454:67: warning: unused parameter ‘index’ [-Wunused-parameter]
+  454 | void MainWindow::on_comboBox_chooseMethod_currentIndexChanged(int index)
+      |                                                               ~~~~^~~~~

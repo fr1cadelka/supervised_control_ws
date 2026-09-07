@@ -1,0 +1,233 @@
+[0.008s] Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.196s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.358s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.629s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.699s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.708s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.772s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.828s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.063s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.484s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.487s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.511s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.511s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.511s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.511s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.526s] -- Found PythonExtra: .so  
+[1.585s] -- Added test 'lint_cmake' to check CMake code style
+[1.585s] -- Added test 'xmllint' to check XML markup files
+[1.591s] -- Configuring done
+[1.619s] -- Generating done
+[1.628s] -- Build files have been written to: /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action
+[1.635s] Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action
+[1.637s] Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action -- -j16 -l16
+[1.672s] [  3%] Generating C code for ROS interfaces
+[1.679s] [  6%] Generating C++ code for ROS interfaces
+[1.688s] [  6%] Built target ament_cmake_python_copy_move_to_point_action
+[1.872s] running egg_info
+[1.894s] creating move_to_point_action.egg-info
+[1.894s] writing move_to_point_action.egg-info/PKG-INFO
+[1.895s] writing dependency_links to move_to_point_action.egg-info/dependency_links.txt
+[1.895s] writing top-level names to move_to_point_action.egg-info/top_level.txt
+[1.895s] writing manifest file 'move_to_point_action.egg-info/SOURCES.txt'
+[1.959s] reading manifest file 'move_to_point_action.egg-info/SOURCES.txt'
+[1.959s] writing manifest file 'move_to_point_action.egg-info/SOURCES.txt'
+[1.985s] [  6%] Built target ament_cmake_python_build_move_to_point_action_egg
+[2.004s] [  6%] Built target move_to_point_action__cpp
+[2.012s] [  9%] Generating C++ type support dispatch for ROS interfaces
+[2.015s] [ 12%] Generating C++ type support for eProsima Fast-RTPS
+[2.015s] [ 16%] Generating C++ introspection for ROS interfaces
+[2.200s] [ 19%] Building C object CMakeFiles/move_to_point_action__rosidl_generator_c.dir/rosidl_generator_c/move_to_point_action/action/detail/move_to_point__functions.c.o
+[2.321s] [ 22%] Linking C shared library libmove_to_point_action__rosidl_generator_c.so
+[2.360s] [ 22%] Built target move_to_point_action__rosidl_generator_c
+[2.369s] [ 29%] Generating C introspection for ROS interfaces
+[2.370s] [ 29%] Generating C type support dispatch for ROS interfaces
+[2.372s] [ 32%] Generating C type support for eProsima Fast-RTPS
+[2.379s] [ 35%] Building CXX object CMakeFiles/move_to_point_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/move_to_point_action/action/move_to_point__type_support.cpp.o
+[2.438s] [ 38%] Building CXX object CMakeFiles/move_to_point_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/move_to_point_action/action/detail/move_to_point__type_support.cpp.o
+[2.544s] [ 41%] Building CXX object CMakeFiles/move_to_point_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/move_to_point_action/action/detail/dds_fastrtps/move_to_point__type_support.cpp.o
+[2.682s] [ 45%] Building CXX object CMakeFiles/move_to_point_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/move_to_point_action/action/move_to_point__type_support.cpp.o
+[2.730s] [ 48%] Linking CXX shared library libmove_to_point_action__rosidl_typesupport_c.so
+[2.739s] [ 51%] Building CXX object CMakeFiles/move_to_point_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/move_to_point_action/action/detail/move_to_point__type_support_c.cpp.o
+[2.771s] [ 51%] Built target move_to_point_action__rosidl_typesupport_c
+[2.805s] [ 54%] Linking CXX shared library libmove_to_point_action__rosidl_typesupport_cpp.so
+[2.847s] [ 54%] Built target move_to_point_action__rosidl_typesupport_cpp
+[2.872s] [ 58%] Building C object CMakeFiles/move_to_point_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/move_to_point_action/action/detail/move_to_point__type_support.c.o
+[2.914s] [ 61%] Linking C shared library libmove_to_point_action__rosidl_typesupport_introspection_c.so
+[2.941s] [ 61%] Built target move_to_point_action__rosidl_typesupport_introspection_c
+[3.108s] [ 64%] Linking CXX shared library libmove_to_point_action__rosidl_typesupport_fastrtps_cpp.so
+[3.178s] [ 64%] Built target move_to_point_action__rosidl_typesupport_fastrtps_cpp
+[3.290s] [ 67%] Linking CXX shared library libmove_to_point_action__rosidl_typesupport_introspection_cpp.so
+[3.290s] [ 70%] Linking CXX shared library libmove_to_point_action__rosidl_typesupport_fastrtps_c.so
+[3.359s] [ 70%] Built target move_to_point_action__rosidl_typesupport_introspection_cpp
+[3.390s] [ 70%] Built target move_to_point_action__rosidl_typesupport_fastrtps_c
+[3.408s] [ 70%] Built target move_to_point_action
+[3.424s] [ 74%] Generating Python code for ROS interfaces
+[3.920s] [ 74%] Built target move_to_point_action__py
+[3.942s] [ 77%] Building C object CMakeFiles/move_to_point_action__rosidl_generator_py.dir/rosidl_generator_py/move_to_point_action/action/_move_to_point_s.c.o
+[4.112s] [ 80%] Linking C shared library rosidl_generator_py/move_to_point_action/libmove_to_point_action__rosidl_generator_py.so
+[4.163s] [ 80%] Built target move_to_point_action__rosidl_generator_py
+[4.179s] [ 83%] Building C object CMakeFiles/move_to_point_action__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/move_to_point_action/_move_to_point_action_s.ep.rosidl_typesupport_c.c.o
+[4.185s] [ 90%] Building C object CMakeFiles/move_to_point_action__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/move_to_point_action/_move_to_point_action_s.ep.rosidl_typesupport_introspection_c.c.o
+[4.185s] [ 90%] Building C object CMakeFiles/move_to_point_action__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/move_to_point_action/_move_to_point_action_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[4.278s] [ 93%] Linking C shared library rosidl_generator_py/move_to_point_action/move_to_point_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.313s] [ 96%] Linking C shared library rosidl_generator_py/move_to_point_action/move_to_point_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.334s] [ 96%] Built target move_to_point_action__rosidl_typesupport_c__pyext
+[4.343s] [100%] Linking C shared library rosidl_generator_py/move_to_point_action/move_to_point_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.352s] [100%] Built target move_to_point_action__rosidl_typesupport_introspection_c__pyext
+[4.393s] [100%] Built target move_to_point_action__rosidl_typesupport_fastrtps_c__pyext
+[4.404s] Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action -- -j16 -l16
+[4.406s] Invoking command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action
+[4.415s] -- Install configuration: "Debug"
+[4.415s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/ament_index/resource_index/rosidl_interfaces/move_to_point_action
+[4.415s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action
+[4.415s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action
+[4.415s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail
+[4.416s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__struct.h
+[4.416s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__functions.c
+[4.416s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__type_support.h
+[4.416s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__functions.h
+[4.416s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/move_to_point.h
+[4.416s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg
+[4.416s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg/rosidl_generator_c__visibility_control.h
+[4.417s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/library_path.sh
+[4.417s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/library_path.dsv
+[4.417s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_generator_c.so
+[4.418s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_generator_c.so" to ""
+[4.418s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action
+[4.418s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action
+[4.418s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail
+[4.418s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__rosidl_typesupport_fastrtps_c.h
+[4.418s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg
+[4.418s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.418s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_fastrtps_c.so
+[4.419s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_fastrtps_c.so" to ""
+[4.419s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action
+[4.420s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action
+[4.420s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail
+[4.420s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__rosidl_typesupport_introspection_c.h
+[4.420s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__type_support.c
+[4.420s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg
+[4.420s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.420s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_introspection_c.so
+[4.420s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_introspection_c.so" to ""
+[4.421s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_c.so
+[4.421s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_c.so" to ""
+[4.421s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action
+[4.421s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action
+[4.421s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail
+[4.422s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__traits.hpp
+[4.422s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__struct.hpp
+[4.422s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__builder.hpp
+[4.422s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__type_support.hpp
+[4.422s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/move_to_point.hpp
+[4.422s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg
+[4.423s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.423s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action
+[4.423s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action
+[4.423s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail
+[4.423s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/dds_fastrtps
+[4.423s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__rosidl_typesupport_fastrtps_cpp.hpp
+[4.423s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg
+[4.423s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.423s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_fastrtps_cpp.so
+[4.424s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.424s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action
+[4.424s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action
+[4.424s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail
+[4.424s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__type_support.cpp
+[4.424s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/include/move_to_point_action/move_to_point_action/action/detail/move_to_point__rosidl_typesupport_introspection_cpp.hpp
+[4.424s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_introspection_cpp.so
+[4.425s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_introspection_cpp.so" to ""
+[4.425s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_cpp.so
+[4.426s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_typesupport_cpp.so" to ""
+[4.426s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/pythonpath.sh
+[4.426s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/pythonpath.dsv
+[4.426s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action-0.0.0-py3.10.egg-info
+[4.426s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.426s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action-0.0.0-py3.10.egg-info/top_level.txt
+[4.426s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action-0.0.0-py3.10.egg-info/PKG-INFO
+[4.427s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.427s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action
+[4.427s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/libmove_to_point_action__rosidl_generator_py.so
+[4.427s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/__init__.py
+[4.427s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/_move_to_point_action_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.427s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/action
+[4.428s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/action/__init__.py
+[4.428s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/action/_move_to_point.py
+[4.428s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/action/_move_to_point_s.c
+[4.428s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.428s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.428s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.428s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/_move_to_point_action_s.ep.rosidl_typesupport_c.c
+[4.429s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/_move_to_point_action_s.ep.rosidl_typesupport_introspection_c.c
+[4.468s] Listing '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action'...
+[4.468s] Compiling '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/__init__.py'...
+[4.468s] Listing '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/action'...
+[4.468s] Compiling '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/action/__init__.py'...
+[4.468s] Compiling '/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/action/_move_to_point.py'...
+[4.472s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.473s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.473s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.473s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.474s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.474s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/local/lib/python3.10/dist-packages/move_to_point_action/move_to_point_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.475s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_generator_py.so
+[4.475s] -- Set runtime path of "/home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/lib/libmove_to_point_action__rosidl_generator_py.so" to ""
+[4.475s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/action/MoveToPoint.idl
+[4.475s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/action/MoveToPoint.action
+[4.475s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/ament_index/resource_index/package_run_dependencies/move_to_point_action
+[4.476s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/ament_index/resource_index/parent_prefix_path/move_to_point_action
+[4.476s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/ament_prefix_path.sh
+[4.476s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/ament_prefix_path.dsv
+[4.476s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/path.sh
+[4.476s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/environment/path.dsv
+[4.476s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/local_setup.bash
+[4.477s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/local_setup.sh
+[4.477s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/local_setup.zsh
+[4.477s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/local_setup.dsv
+[4.477s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.dsv
+[4.477s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/ament_index/resource_index/packages/move_to_point_action
+[4.478s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_generator_cExport.cmake
+[4.478s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_generator_cExport-debug.cmake
+[4.478s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_typesupport_fastrtps_cExport.cmake
+[4.478s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_typesupport_fastrtps_cExport-debug.cmake
+[4.478s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_introspection_cExport.cmake
+[4.479s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_introspection_cExport-debug.cmake
+[4.479s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_cExport.cmake
+[4.479s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_cExport-debug.cmake
+[4.479s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_generator_cppExport.cmake
+[4.479s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.480s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_typesupport_fastrtps_cppExport-debug.cmake
+[4.480s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_introspection_cppExport.cmake
+[4.480s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_introspection_cppExport-debug.cmake
+[4.480s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_cppExport.cmake
+[4.481s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_action__rosidl_typesupport_cppExport-debug.cmake
+[4.481s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_generator_pyExport.cmake
+[4.481s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/export_move_to_point_action__rosidl_generator_pyExport-debug.cmake
+[4.481s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/rosidl_cmake-extras.cmake
+[4.482s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.482s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.482s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/ament_cmake_export_libraries-extras.cmake
+[4.482s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/ament_cmake_export_targets-extras.cmake
+[4.482s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.482s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.483s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_actionConfig.cmake
+[4.483s] -- Installing: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/cmake/move_to_point_actionConfig-version.cmake
+[4.483s] -- Up-to-date: /home/dmitry/Documents/lab_first_sem/ws_supervised/install/move_to_point_action/share/move_to_point_action/package.xml
+[4.485s] Invoked command in '/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action

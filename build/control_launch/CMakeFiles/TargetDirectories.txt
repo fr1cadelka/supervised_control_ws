@@ -1,0 +1,9 @@
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/uninstall.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/control_launch_uninstall.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/test.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/edit_cache.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/rebuild_cache.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/list_install_components.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/install.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/install/local.dir
+/home/dmitry/Documents/lab_first_sem/ws_supervised/build/control_launch/CMakeFiles/install/strip.dir

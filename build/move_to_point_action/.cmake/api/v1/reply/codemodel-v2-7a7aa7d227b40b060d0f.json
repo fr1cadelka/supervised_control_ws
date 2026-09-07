@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-679857ed1e33c64ad0fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "move_to_point_action__py",
+					"jsonFile" : "directory-move_to_point_action__py-Debug-ebb54399557ef41cce29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action/move_to_point_action__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "move_to_point_action",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_move_to_point_action_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_move_to_point_action_egg-Debug-3d5d86c86fe304585977.json",
+					"name" : "ament_cmake_python_build_move_to_point_action_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_move_to_point_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_move_to_point_action-Debug-1f6872d9bd6bcb185093.json",
+					"name" : "ament_cmake_python_copy_move_to_point_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action-Debug-3ac6893f3e8a1bae8c45.json",
+					"name" : "move_to_point_action",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__cpp-Debug-6cacc59f6dff2373c3f1.json",
+					"name" : "move_to_point_action__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "move_to_point_action__py::@5a52527c179daa451fc0",
+					"jsonFile" : "target-move_to_point_action__py-Debug-573afc71e7495cabaf96.json",
+					"name" : "move_to_point_action__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_generator_c-Debug-fbdb6d4bcf51dbba6e6f.json",
+					"name" : "move_to_point_action__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_generator_py-Debug-74ae512f000e114fbd35.json",
+					"name" : "move_to_point_action__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_c-Debug-9bf38eb57ef4cef05a0a.json",
+					"name" : "move_to_point_action__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_c__pyext-Debug-a0d0f5f83dea64274155.json",
+					"name" : "move_to_point_action__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_cpp-Debug-6ea070185bb93a102648.json",
+					"name" : "move_to_point_action__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_fastrtps_c-Debug-88bafdd027db57121559.json",
+					"name" : "move_to_point_action__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_fastrtps_c__pyext-Debug-b7fa407f488ad98ecd22.json",
+					"name" : "move_to_point_action__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_fastrtps_cpp-Debug-f720862b3552ca8822f0.json",
+					"name" : "move_to_point_action__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_introspection_c-Debug-1b854e61f3b15e9b45d3.json",
+					"name" : "move_to_point_action__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_introspection_c__pyext-Debug-99567c5cfd21788dbc33.json",
+					"name" : "move_to_point_action__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action__rosidl_typesupport_introspection_cpp-Debug-014903d33c670e4485db.json",
+					"name" : "move_to_point_action__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_to_point_action_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_to_point_action_uninstall-Debug-725b2f034535525604ee.json",
+					"name" : "move_to_point_action_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-f762a92520b1de9892c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dmitry/Documents/lab_first_sem/ws_supervised/build/move_to_point_action",
+		"source" : "/home/dmitry/Documents/lab_first_sem/ws_supervised/src/move_to_point_action"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

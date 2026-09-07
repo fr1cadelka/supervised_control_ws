@@ -1,0 +1,16 @@
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/launch/control_turtle_launch.py
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/ament_index/resource_index/package_run_dependencies/control_launch
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/ament_index/resource_index/parent_prefix_path/control_launch
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/environment/ament_prefix_path.sh
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/environment/ament_prefix_path.dsv
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/environment/path.sh
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/environment/path.dsv
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/local_setup.bash
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/local_setup.sh
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/local_setup.zsh
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/local_setup.dsv
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.dsv
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/ament_index/resource_index/packages/control_launch
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/cmake/control_launchConfig.cmake
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/cmake/control_launchConfig-version.cmake
+/home/dmitry/Documents/lab_first_sem/ws_supervised/install/control_launch/share/control_launch/package.xml

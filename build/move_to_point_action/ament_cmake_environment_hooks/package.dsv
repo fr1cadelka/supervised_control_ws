@@ -1,0 +1,4 @@
+source;share/move_to_point_action/local_setup.bash
+source;share/move_to_point_action/local_setup.dsv
+source;share/move_to_point_action/local_setup.sh
+source;share/move_to_point_action/local_setup.zsh

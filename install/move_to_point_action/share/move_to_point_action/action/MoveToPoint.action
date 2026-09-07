@@ -1,0 +1,10 @@
+#Цель
+geometry_msgs/Point32 target_point
+
+---
+# Результат
+bool success
+
+---
+# Обратаная связь
+float32 progress
